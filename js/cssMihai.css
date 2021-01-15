@@ -69,7 +69,7 @@
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
 
 
 
@@ -1171,7 +1171,6 @@ hr {
   color: var(--clr-black);
 }
 .section-loading {
-  text-align: center;
   position: absolute;
   top: 2rem;
   left: 50%;
