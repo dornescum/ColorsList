@@ -7,12 +7,17 @@
     color: red;
 }
 
+.white {
+    color: white;
+}
+
 /*buton gri si silver*/
 .btn-grad {
     background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8 51%, #757F9A 100%)
 }
+
 .btn-grad {
-    margin: 10px;
+    /*margin: 10px;*/
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
@@ -20,8 +25,9 @@
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
+    border-radius: 5px;
     display: block;
+    width: 100%;
 }
 
 .btn-grad:hover {
@@ -41,7 +47,6 @@
 /*buton orange*/
 
 
-
 /*clock*/
 .clock {
     position: absolute;
@@ -50,22 +55,25 @@
     transform: translateX(-50%) translateY(-50%);
     color: var(--clr-black);
     font-size: 20px;
-    font-family: Orbitron;
+    /*font-family: Orbitron;*/
     letter-spacing: 7px;
 }
 
-p{
+p {
     box-shadow: var(--light-shadow);
 }
-p:hover{
+
+p:hover {
     box-shadow: var(--dark-shadow);
 }
-@media screen and (min-width: 320px){
+
+@media screen and (min-width: 320px) {
     /*p{*/
     /*    padding: 0 2px;*/
     /*}*/
 }
-    /*id colors*/
+
+/*id colors*/
 /*==================================================*/
 #grey-main {
     background: #808080;
@@ -638,453 +646,726 @@ p:hover{
     background: #940000;
     color: #940000;
 }
-#red-dark-1{
-    background: #f50000  ;
-    color:  #f50000 ;
+
+#red-dark-1 {
+    background: #f50000;
+    color: #f50000;
 }
-#red-dark-2{
-    background:  #f00000 ;
-    color:  #f00000 ;
+
+#red-dark-2 {
+    background: #f00000;
+    color: #f00000;
 }
-#red-dark-3{
-    background:  #e60000 ;
-    color:  #e60000 ;
+
+#red-dark-3 {
+    background: #e60000;
+    color: #e60000;
 }
-#red-dark-4{
-    background: #e00000  ;
-    color:  #e00000 ;
+
+#red-dark-4 {
+    background: #e00000;
+    color: #e00000;
 }
-#red-dark-5{
-    background:  #db0000 ;
-    color:  #db0000 ;
+
+#red-dark-5 {
+    background: #db0000;
+    color: #db0000;
 }
-#red-dark-6{
-    background:  #d10000 ;
-    color: #d10000  ;
+
+#red-dark-6 {
+    background: #d10000;
+    color: #d10000;
 }
-#red-dark-7{
-    background:  #cc0000 ;
-    color:  #cc0000 ;
+
+#red-dark-7 {
+    background: #cc0000;
+    color: #cc0000;
 }
-#red-dark-8{
-    background:  #c70000 ;
-    color:  #c70000 ;
+
+#red-dark-8 {
+    background: #c70000;
+    color: #c70000;
 }
-#red-dark-9{
-    background:  #bd0000 ;
-    color: #bd0000  ;
+
+#red-dark-9 {
+    background: #bd0000;
+    color: #bd0000;
 }
-#red-dark-10{
-    background:  #b80000 ;
-    color:  #b80000 ;
+
+#red-dark-10 {
+    background: #b80000;
+    color: #b80000;
 }
-#red-dark-11{
-    background:  #b30000 ;
-    color:  #b30000 ;
+
+#red-dark-11 {
+    background: #b30000;
+    color: #b30000;
 }
-#red-dark-12{
-    background:  #a80000 ;
-    color:  #a80000 ;
+
+#red-dark-12 {
+    background: #a80000;
+    color: #a80000;
 }
-#red-dark-13{
-    background:  #a30000 ;
-    color:  #a30000 ;
+
+#red-dark-13 {
+    background: #a30000;
+    color: #a30000;
 }
-#red-dark-14{
-    background:  #9e0000 ;
-    color:  #9e0000 ;
+
+#red-dark-14 {
+    background: #9e0000;
+    color: #9e0000;
 }
-#red-dark-15{
-    background: #940000  ;
-    color:  #940000 ;
+
+#red-dark-15 {
+    background: #940000;
+    color: #940000;
 }
+
 /*maroon*/
-#maroon-main{
-    background:  #800000;
-    color:  #800000;
+#maroon-main {
+    background: #800000;
+    color: #800000;
 }
-#maroon-1{
-    background:  #fa0000 ;
-    color:  #fa0000 ;
+
+#maroon-1 {
+    background: #fa0000;
+    color: #fa0000;
 }
-#maroon-2{
-    background:  #f50000 ;
-    color: #f50000  ;
+
+#maroon-2 {
+    background: #f50000;
+    color: #f50000;
 }
-#maroon-3{
-    background:  #eb0000 ;
-    color:  #eb0000 ;
+
+#maroon-3 {
+    background: #eb0000;
+    color: #eb0000;
 }
-#maroon-4{
-    background:  #e00000 ;
-    color:  #e00000 ;
+
+#maroon-4 {
+    background: #e00000;
+    color: #e00000;
 }
-#maroon-5{
-    background:  #db0000 ;
-    color:  #db0000 ;
+
+#maroon-5 {
+    background: #db0000;
+    color: #db0000;
 }
-#maroon-6{
-    background: #d10000  ;
-    color:  #d10000 ;
+
+#maroon-6 {
+    background: #d10000;
+    color: #d10000;
 }
-#maroon-7{
-    background:  #c70000 ;
-    color:  #c70000 ;
+
+#maroon-7 {
+    background: #c70000;
+    color: #c70000;
 }
-#maroon-8{
-    background:  #c20000 ;
-    color:  #c20000 ;
+
+#maroon-8 {
+    background: #c20000;
+    color: #c20000;
 }
-#maroon-9{
-    background:  #b80000 ;
-    color:  #b80000 ;
+
+#maroon-9 {
+    background: #b80000;
+    color: #b80000;
 }
-#maroon-10{
-    background:  #ad0000 ;
-    color:  #ad0000 ;
+
+#maroon-10 {
+    background: #ad0000;
+    color: #ad0000;
 }
-#maroon-11{
-    background: #a80000  ;
-    color:  #a80000 ;
+
+#maroon-11 {
+    background: #a80000;
+    color: #a80000;
 }
-#maroon-12{
-    background:  #9e0000 ;
-    color:  #9e0000 ;
+
+#maroon-12 {
+    background: #9e0000;
+    color: #9e0000;
 }
-#maroon-13{
-    background:  #940000 ;
-    color: #940000  ;
+
+#maroon-13 {
+    background: #940000;
+    color: #940000;
 }
-#maroon-14{
-    background:  #8f0000 ;
-    color:  #8f0000 ;
+
+#maroon-14 {
+    background: #8f0000;
+    color: #8f0000;
 }
-#maroon-15{
-    background: #850000  ;
-    color:  #850000 ;
+
+#maroon-15 {
+    background: #850000;
+    color: #850000;
 }
+
 /*dark maroon*/
-#maroon-dark-main{
-    background:  #140000 ;
-    color:  #140000 ;
+#maroon-dark-main {
+    background: #140000;
+    color: #140000;
 }
-#maroon-dark-1{
-    background:  #750000 ;
-    color: #750000  ;
+
+#maroon-dark-1 {
+    background: #750000;
+    color: #750000;
 }
-#maroon-dark-2{
-    background: #700000  ;
-    color:  #700000 ;
+
+#maroon-dark-2 {
+    background: #700000;
+    color: #700000;
 }
-#maroon-dark-3{
-    background:  #660000 ;
-    color:  #660000 ;
+
+#maroon-dark-3 {
+    background: #660000;
+    color: #660000;
 }
-#maroon-dark-4{
-    background: #610000  ;
-    color:  #610000 ;
+
+#maroon-dark-4 {
+    background: #610000;
+    color: #610000;
 }
-#maroon-dark-5{
-    background:  #5c0000 ;
-    color:  #5c0000 ;
+
+#maroon-dark-5 {
+    background: #5c0000;
+    color: #5c0000;
 }
-#maroon-dark-6{
-    background:  #520000 ;
-    color:  #520000 ;
+
+#maroon-dark-6 {
+    background: #520000;
+    color: #520000;
 }
-#maroon-dark-7{
-    background:  #4d0000 ;
-    color:  #4d0000 ;
+
+#maroon-dark-7 {
+    background: #4d0000;
+    color: #4d0000;
 }
-#maroon-dark-8{
-    background:  #470000 ;
-    color:  #470000 ;
+
+#maroon-dark-8 {
+    background: #470000;
+    color: #470000;
 }
-#maroon-dark-9{
-    background: #3d0000  ;
-    color:  #3d0000 ;
+
+#maroon-dark-9 {
+    background: #3d0000;
+    color: #3d0000;
 }
-#maroon-dark-10{
-    background: #380000  ;
-    color: #380000  ;
+
+#maroon-dark-10 {
+    background: #380000;
+    color: #380000;
 }
-#maroon-dark-11{
-    background:  #330000 ;
-    color:  #330000 ;
+
+#maroon-dark-11 {
+    background: #330000;
+    color: #330000;
 }
-#maroon-dark-12{
-    background:  #290000 ;
-    color:  #290000 ;
+
+#maroon-dark-12 {
+    background: #290000;
+    color: #290000;
 }
-#maroon-dark-13{
-    background:  #240000 ;
-    color:  #240000 ;
+
+#maroon-dark-13 {
+    background: #240000;
+    color: #240000;
 }
-#maroon-dark-14{
-    background: #1f0000  ;
-    color:  #1f0000 ;
+
+#maroon-dark-14 {
+    background: #1f0000;
+    color: #1f0000;
 }
-#maroon-dark-15{
-    background: #140000  ;
-    color:  #140000 ;
+
+#maroon-dark-15 {
+    background: #140000;
+    color: #140000;
 }
+
 /*brown*/
-#brown-main{
-    background:  #a52a2a;
-    color:  #a52a2a;
+#brown-main {
+    background: #a52a2a;
+    color: #a52a2a;
 }
-#brown-1{
-    background: #da7171  ;
-    color: #da7171  ;
+
+#brown-1 {
+    background: #da7171;
+    color: #da7171;
 }
-#brown-2{
-    background: #d96d6d  ;
-    color:  #d96d6d ;
+
+#brown-2 {
+    background: #d96d6d;
+    color: #d96d6d;
 }
-#brown-3{
-    background: #d76565  ;
-    color: #d76565  ;
+
+#brown-3 {
+    background: #d76565;
+    color: #d76565;
 }
-#brown-4{
-    background:  #d55d5d ;
-    color:  #d55d5d ;
+
+#brown-4 {
+    background: #d55d5d;
+    color: #d55d5d;
 }
-#brown-5{
-    background:  #d45959 ;
-    color:  #d45959 ;
+
+#brown-5 {
+    background: #d45959;
+    color: #d45959;
 }
-#brown-6{
-    background: #d25151  ;
-    color: #d25151  ;
+
+#brown-6 {
+    background: #d25151;
+    color: #d25151;
 }
-#brown-7{
-    background:  #d04949 ;
-    color:  #d04949 ;
+
+#brown-7 {
+    background: #d04949;
+    color: #d04949;
 }
-#brown-8{
-    background:  #cf4444 ;
-    color:  #cf4444 ;
+
+#brown-8 {
+    background: #cf4444;
+    color: #cf4444;
 }
-#brown-9{
-    background:  #cd3c3c ;
-    color:  #cd3c3c ;
+
+#brown-9 {
+    background: #cd3c3c;
+    color: #cd3c3c;
 }
-#brown-10{
-    background:  #cb3434 ;
-    color:  #cb3434 ;
+
+#brown-10 {
+    background: #cb3434;
+    color: #cb3434;
 }
-#brown-11{
-    background:  #c73333 ;
-    color:  #c73333 ;
+
+#brown-11 {
+    background: #c73333;
+    color: #c73333;
 }
-#brown-12{
-    background:  #bf3131 ;
-    color:  #bf3131 ;
+
+#brown-12 {
+    background: #bf3131;
+    color: #bf3131;
 }
-#brown-13{
-    background: #b62f2f  ;
-    color:  #b62f2f ;
+
+#brown-13 {
+    background: #b62f2f;
+    color: #b62f2f;
 }
-#brown-14{
-    background: #b22e2e  ;
-    color: #b22e2e  ;
+
+#brown-14 {
+    background: #b22e2e;
+    color: #b22e2e;
 }
-#brown-15{
-    background:  #aa2c2c ;
-    color:  #aa2c2c ;
+
+#brown-15 {
+    background: #aa2c2c;
+    color: #aa2c2c;
 }
+
 /*dark brown*/
-#brown-main-dark{
-    background:  #511515 ;
-    color:  #511515 ;
+#brown-main-dark {
+    background: #511515;
+    color: #511515;
 }
-#brown-dark-1{
-    background:  #9e2929 ;
-    color: #9e2929 ;
+
+#brown-dark-1 {
+    background: #9e2929;
+    color: #9e2929;
 }
-#brown-dark-2{
-    background: #9a2828  ;
-    color:  #9a2828 ;
+
+#brown-dark-2 {
+    background: #9a2828;
+    color: #9a2828;
 }
-#brown-dark-3{
-    background:  #922626 ;
-    color:  #922626 ;
+
+#brown-dark-3 {
+    background: #922626;
+    color: #922626;
 }
-#brown-dark-4{
-    background: #8e2525  ;
-    color: #8e2525  ;
+
+#brown-dark-4 {
+    background: #8e2525;
+    color: #8e2525;
 }
-#brown-dark-5{
-    background: #8a2424  ;
-    color:  #8a2424 ;
+
+#brown-dark-5 {
+    background: #8a2424;
+    color: #8a2424;
 }
-#brown-dark-6{
-    background:  #822121 ;
-    color:  #822121 ;
+
+#brown-dark-6 {
+    background: #822121;
+    color: #822121;
 }
-#brown-dark-7{
-    background: #7e2020  ;
-    color:  #7e2020 ;
+
+#brown-dark-7 {
+    background: #7e2020;
+    color: #7e2020;
 }
-#brown-dark-8{
-    background:  #7a1f1f ;
-    color: #7a1f1f  ;
+
+#brown-dark-8 {
+    background: #7a1f1f;
+    color: #7a1f1f;
 }
-#brown-dark-9{
-    background:  #721d1d ;
-    color:  #721d1d ;
+
+#brown-dark-9 {
+    background: #721d1d;
+    color: #721d1d;
 }
-#brown-dark-10{
-    background: #6d1c1c  ;
-    color: #6d1c1c  ;
+
+#brown-dark-10 {
+    background: #6d1c1c;
+    color: #6d1c1c;
 }
-#brown-dark-11{
-    background:  #691b1b ;
-    color:  #691b1b ;
+
+#brown-dark-11 {
+    background: #691b1b;
+    color: #691b1b;
 }
-#brown-dark-12{
-    background:  #611919 ;
-    color: #611919  ;
+
+#brown-dark-12 {
+    background: #611919;
+    color: #611919;
 }
-#brown-dark-13{
-    background:  #5d1818 ;
-    color: #5d1818  ;
+
+#brown-dark-13 {
+    background: #5d1818;
+    color: #5d1818;
 }
-#brown-dark-14{
-    background:  #591717 ;
-    color: #591717  ;
+
+#brown-dark-14 {
+    background: #591717;
+    color: #591717;
 }
-#brown-dark-15{
-    background:  #511515 ;
-    color:  #511515 ;
+
+#brown-dark-15 {
+    background: #511515;
+    color: #511515;
 }
+
 /*tan */
-#tan-main{
-    background:  #d2b48c;
-    color:  #d2b48c;
+#tan-main {
+    background: #d2b48c;
+    color: #d2b48c;
 }
-#tan-1{
-    background:  #f5eee5 ;
-    color:  #f5eee5 ;
+
+#tan-1 {
+    background: #f5eee5;
+    color: #f5eee5;
 }
-#tan-2{
-    background:  #f4ece2 ;
-    color:  #f4ece2 ;
+
+#tan-2 {
+    background: #f4ece2;
+    color: #f4ece2;
 }
-#tan-3{
-    background:  #f1e7da ;
-    color: #f1e7da  ;
+
+#tan-3 {
+    background: #f1e7da;
+    color: #f1e7da;
 }
-#tan-4{
-    background: #eee2d3  ;
-    color:  #eee2d3 ;
+
+#tan-4 {
+    background: #eee2d3;
+    color: #eee2d3;
 }
-#tan-5{
-    background:  #ece0cf ;
-    color:  #ece0cf ;
+
+#tan-5 {
+    background: #ece0cf;
+    color: #ece0cf;
 }
-#tan-6{
-    background:  #eadbc8 ;
-    color:  #eadbc8 ;
+
+#tan-6 {
+    background: #eadbc8;
+    color: #eadbc8;
 }
-#tan-7{
-    background: #e7d6c1  ;
-    color:  #e7d6c1 ;
+
+#tan-7 {
+    background: #e7d6c1;
+    color: #e7d6c1;
 }
-#tan-8{
-    background:  #e5d4bd ;
-    color:  #e5d4bd ;
+
+#tan-8 {
+    background: #e5d4bd;
+    color: #e5d4bd;
 }
-#tan-9{
-    background:  #e2cfb6 ;
-    color:  #e2cfb6 ;
+
+#tan-9 {
+    background: #e2cfb6;
+    color: #e2cfb6;
 }
-#tan-10{
-    background:  #e0caae ;
-    color:  #e0caae ;
+
+#tan-10 {
+    background: #e0caae;
+    color: #e0caae;
 }
-#tan-11{
-    background:  #dec8ab ;
-    color:  #dec8ab ;
+
+#tan-11 {
+    background: #dec8ab;
+    color: #dec8ab;
 }
-#tan-12{
-    background:  #dbc3a3 ;
-    color:  #dbc3a3 ;
+
+#tan-12 {
+    background: #dbc3a3;
+    color: #dbc3a3;
 }
-#tan-13{
-    background: #d8be9c  ;
-    color: #d8be9c  ;
+
+#tan-13 {
+    background: #d8be9c;
+    color: #d8be9c;
 }
-#tan-14{
-    background:  #d7bc98 ;
-    color: #d7bc98  ;
+
+#tan-14 {
+    background: #d7bc98;
+    color: #d7bc98;
 }
-#tan-15{
-    background: #d4b791  ;
-    color:  #d4b791 ;
+
+#tan-15 {
+    background: #d4b791;
+    color: #d4b791;
 }
+
 /*tan dark main */
-#tan-dark-main{
-    background:  #b08245 ;
-    color: #b08245  ;
+#tan-dark-main {
+    background: #b08245;
+    color: #b08245;
 }
-#tan-dark-1{
-    background:  #d0b086 ;
-    color:  #d0b086 ;
+
+#tan-dark-1 {
+    background: #d0b086;
+    color: #d0b086;
 }
-#tan-dark-2{
-    background:  #cead82 ;
-    color:  #cead82 ;
+
+#tan-dark-2 {
+    background: #cead82;
+    color: #cead82;
 }
-#tan-dark-3{
-    background:  #cca97b ;
-    color: #cca97b  ;
+
+#tan-dark-3 {
+    background: #cca97b;
+    color: #cca97b;
 }
-#tan-dark-4{
-    background: #caa677  ;
-    color:  #caa677 ;
+
+#tan-dark-4 {
+    background: #caa677;
+    color: #caa677;
 }
-#tan-dark-5{
-    background: #c9a473  ;
-    color:  #c9a473 ;
+
+#tan-dark-5 {
+    background: #c9a473;
+    color: #c9a473;
 }
-#tan-dark-6{
-    background: #c69f6c  ;
-    color:  #c69f6c ;
+
+#tan-dark-6 {
+    background: #c69f6c;
+    color: #c69f6c;
 }
-#tan-dark-7{
-    background:  #c49d68 ;
-    color:  #c49d68 ;
+
+#tan-dark-7 {
+    background: #c49d68;
+    color: #c49d68;
 }
-#tan-dark-8{
-    background:  #c39a65 ;
-    color: #c39a65  ;
+
+#tan-dark-8 {
+    background: #c39a65;
+    color: #c39a65;
 }
-#tan-dark-9{
-    background:  #c0955d ;
-    color:  #c0955d ;
+
+#tan-dark-9 {
+    background: #c0955d;
+    color: #c0955d;
 }
-#tan-dark-10{
-    background:  #bf935a ;
-    color:  #bf935a ;
+
+#tan-dark-10 {
+    background: #bf935a;
+    color: #bf935a;
 }
-#tan-dark-11{
-    background:  #bd9156 ;
-    color: #bd9156  ;
+
+#tan-dark-11 {
+    background: #bd9156;
+    color: #bd9156;
 }
-#tan-dark-12{
-    background: #ba8c4f  ;
-    color:  #ba8c4f ;
+
+#tan-dark-12 {
+    background: #ba8c4f;
+    color: #ba8c4f;
 }
-#tan-dark-13{
-    background:  #b9894b ;
-    color:  #b9894b ;
+
+#tan-dark-13 {
+    background: #b9894b;
+    color: #b9894b;
 }
-#tan-dark-14{
-    background: #b88747  ;
-    color:  #b88747 ;
+
+#tan-dark-14 {
+    background: #b88747;
+    color: #b88747;
 }
-#tan-dark-15{
-    background:  #b08245 ;
-    color:  #b08245  ;
+
+#tan-dark-15 {
+    background: #b08245;
+    color: #b08245;
+}
+
+/*gold*/
+#gold-main {
+    background: #ffd700;
+    color: #ffd700;
+}
+
+#gold-1 {
+    background: #ffeb7a;
+    color: #ffeb7a;
+}
+
+#gold-2 {
+    background: #ffea75;
+    color: #ffea75;
+}
+
+#gold-3 {
+    background: #ffe96b;
+    color: #ffe96b;
+}
+
+#gold-4 {
+    background: #ffe761;
+    color: #ffe761;
+}
+
+#gold-5 {
+    background: #ffe75c;
+    color: #ffe75c;
+}
+
+#gold-6 {
+    background: #ffe552;
+    color: #ffe552;
+}
+
+#gold-7 {
+    background: #ffe347;
+    color: #ffe347;
+}
+
+#gold-8 {
+    background: #ffe342;
+    color: #ffe342;
+}
+
+#gold-9 {
+    background: #ffe138;
+    color: #ffe138;
+}
+
+#gold-10 {
+    background: #ffe02e;
+    color: #ffe02e;
+}
+
+#gold-11 {
+    background: #ffdf29;
+    color: #ffdf29;
+}
+
+#gold-12 {
+    background: #ffdd1f;
+    color: #ffdd1f;
+}
+
+#gold-13 {
+    background: #ffdc14;
+    color: #ffdc14;
+}
+
+#gold-14 {
+    background: #ffdb0f;
+    color: #ffdb0f;
+}
+
+#gold-15 {
+    background: #ffda05;
+    color: #ffda05;
+}
+
+/*dark gold*/
+#gold-main-dark {
+    background: #947e00;
+    color: #947e00;
+}
+
+#gold-dark-1 {
+    background: #f5d000;
+    color: #f5d000;
+}
+
+#gold-dark-2 {
+    background: #f0cc00;
+    color: #f0cc00;
+}
+
+#gold-dark-3 {
+    background: #e6c300;
+    color: #e6c300;
+}
+
+#gold-dark-4 {
+    background: #e0bf00;
+    color: #e0bf00;
+}
+
+#gold-dark-5 {
+    background: #dbba00;
+    color: #dbba00;
+}
+
+#gold-dark-6 {
+    background: #d1b200;
+    color: #d1b200;
+}
+
+#gold-dark-7 {
+    background: #ccad00;
+    color: #ccad00;
+}
+
+#gold-dark-8 {
+    background: #c7a900;
+    color: #c7a900;
+}
+
+#gold-dark-9 {
+    background: #bda000;
+    color: #bda000;
+}
+
+#gold-dark-10 {
+    background: #b89c00;
+    color: #b89c00;
+}
+
+#gold-dark-11 {
+    background: #b39800;
+    color: #b39800;
+}
+
+#gold-dark-12 {
+    background: #a88f00;
+    color: #a88f00;
+}
+
+#gold-dark-13 {
+    background: #a38b00;
+    color: #a38b00;
+}
+
+#gold-dark-14 {
+    background: #9e8600;
+    color: #9e8600;
+}
+
+#gold-dark-15 {
+    background: #947e00;
+    color: #947e00;
 }
