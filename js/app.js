@@ -43,6 +43,7 @@ colors.forEach(function (item) {
     })
 })
 // console.log(p)
+console.log(`Today is ${new Date().toUTCString()}. Very nice.`);
 
 function showTime() {
     let date = new Date();
