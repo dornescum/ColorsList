@@ -30,12 +30,12 @@
 
 
     </header>
-    <div class="container pt-1 pb-3">
+    <div class="container pt-1 pb-3 media">
         <!--        grey silver-->
         <div class="row">
             <div class="col-lg-3">
 
-                <button class="btn-grad">Grey</button>
+                <button class="btn-grad" id="btn-grey">Grey</button>
                 <p id="grey-main" class="pl-1 colors m-0">#808080</p>
                 <p id="grey-1" class="pl-1 colors"> #bdbdbd</p>
                 <p id="grey-2" class="pl-1 colors"> #bababa</p>
@@ -54,7 +54,7 @@
                 <p id="grey-15" class="pl-1 colors"> #828282</p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad">Dark Grey</button>
+                <button class="btn-grad" id="btn-dark-grey">Dark Grey</button>
                 <p id="grey-dark-main" class="pl-1 colors"> #4a4a4a</p>
                 <p id="grey-dark-1" class="pl-1 colors"> #7a7a7a</p>
                 <p id="grey-dark-2" class="pl-1 colors"> #787878</p>
@@ -73,7 +73,7 @@
                 <p id="grey-dark-15" class="pl-1 colors"> #4a4a4a</p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad">Silver</button>
+                <button class="btn-grad" id="btn-silver">Silver</button>
                 <p id="silver-main" class="pl-1 colors"> #c0c0c0</p>
                 <p id="silver-1" class="pl-1 colors"> #fcfcfc </p>
                 <p id="silver-2" class="pl-1 colors"> #fafafa </p>
@@ -92,7 +92,7 @@
                 <p id="silver-15" class="pl-1 colors"> #c2c2c2 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad">Dark Silver</button>
+                <button class="btn-grad" id="btn-dark-silver">Dark Silver</button>
                 <p id="silver-main-dark" class="pl-1 colors"> #8a8a8a </p>
                 <p id="silver-dark-1" class="pl-1 colors"> #fcfcfc </p>
                 <p id="silver-dark-2" class="pl-1 colors"> #fafafa </p>
@@ -153,7 +153,7 @@
                 <p id="orange-dark-15" class="pl-1 colors"> #946000 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad"> Red</button>
+                <button class="btn-grad" id="btn-red"> Red</button>
                 <p id="red-main" class="pl-1 colors"> #ff0000</p>
                 <p id="red-1" class="pl-1 colors"> #ff7a7a </p>
                 <p id="red-2" class="pl-1 colors"> #ff7575 </p>
@@ -172,7 +172,7 @@
                 <p id="red-15" class="pl-1 colors"> #ff0505 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad">Dark Red</button>
+                <button class="btn-grad" id="btn-dark-red">Dark Red</button>
                 <p id="red-main-dark" class="pl-1 colors"> #940000 </p>
                 <p id="red-dark-1" class="pl-1 colors"> #f50000 </p>
                 <p id="red-dark-2" class="pl-1 colors"> #f00000 </p>
@@ -235,7 +235,7 @@
                 <p id="maroon-dark-15" class="pl-1 colors"> #140000 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad"> Brown</button>
+                <button class="btn-grad" id="btn-brown"> Brown</button>
                 <p id="brown-main" class="pl-1 colors"> #a52a2a </p>
                 <p id="brown-1" class="pl-1 colors"> #da7171 </p>
                 <p id="brown-2" class="pl-1 colors"> #d96d6d </p>
@@ -254,7 +254,7 @@
                 <p id="brown-15" class="pl-1 colors"> #aa2c2c </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad">Dark Brown</button>
+                <button class="btn-grad" id="btn-dark-brown">Dark Brown</button>
                 <p id="brown-main-dark" class="pl-1 colors"> #511515 </p>
                 <p id="brown-dark-1" class="pl-1 colors"> #9e2929 </p>
                 <p id="brown-dark-2" class="pl-1 colors"> #9a2828 </p>
@@ -294,10 +294,9 @@
                 <p id="tan-14" class="pl-1 colors"> #d7bc98 </p>
                 <p id="tan-15" class="pl-1 colors"> #d4b791 </p>
             </div>
-
             <div class="col-lg-3">
                 <!--                dark tan-->
-                <button class="btn-grad" id="btn-dark-tan">Dark Maroon</button>
+                <button class="btn-grad" id="btn-dark-tan">Dark Tan</button>
                 <p id="tan-dark-main" class="pl-1 colors"> #b08245 </p>
                 <p id="tan-dark-1" class="pl-1 colors"> #d0b086 </p>
                 <p id="tan-dark-2" class="pl-1 colors"> #cead82 </p>
@@ -316,7 +315,7 @@
                 <p id="tan-dark-15" class="pl-1 colors"> #b08245 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad"> Gold</button>
+                <button class="btn-grad" id="btn-gold"> Gold</button>
                 <p id="gold-main" class="pl-1 colors"> #ffd700 </p>
                 <p id="gold-1" class="pl-1 colors"> #ffeb7a </p>
                 <p id="gold-2" class="pl-1 colors"> #ffea75 </p>
@@ -335,7 +334,7 @@
                 <p id="gold-15" class="pl-1 colors"> #ffda05 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad">Dark Gold</button>
+                <button class="btn-grad" id="btn-dark-gold">Dark Gold</button>
                 <p id="gold-main-dark" class="pl-1 colors"> #947e00 </p>
                 <p id="gold-dark-1" class="pl-1 colors"> #f5d000 </p>
                 <p id="gold-dark-2" class="pl-1 colors"> #f0cc00 </p>
@@ -397,48 +396,128 @@
                 <p id="olive-dark-15" class="pl-1 colors"> #141400 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad"> Gold</button>
-                <p id="lime-main" class="pl-1 colors"> #ffd700 </p>
-                <p id="lime-1" class="pl-1 colors"> #ffeb7a </p>
-                <p id="lime-2" class="pl-1 colors"> #ffea75 </p>
-                <p id="lime-3" class="pl-1 colors"> #ffe96b </p>
-                <p id="lime-4" class="pl-1 colors"> #ffe761 </p>
-                <p id="lime-5" class="pl-1 colors"> #ffe75c </p>
-                <p id="lime-6" class="pl-1 colors"> #ffe552 </p>
-                <p id="lime-7" class="pl-1 colors"> #ffe347 </p>
-                <p id="lime-8" class="pl-1 colors"> #ffe342 </p>
-                <p id="lime-9" class="pl-1 colors"> #ffe138 </p>
-                <p id="lime-10" class="pl-1 colors"> #ffe02e </p>
-                <p id="lime-11" class="pl-1 colors"> #ffdf29 </p>
-                <p id="lime-12" class="pl-1 colors"> #ffdd1f </p>
-                <p id="lime-13" class="pl-1 colors"> #ffdc14 </p>
-                <p id="lime-14" class="pl-1 colors"> #ffdb0f </p>
-                <p id="lime-15" class="pl-1 colors"> #ffda05 </p>
+                <button class="btn-grad" id="btn-lime"> Lime</button>
+                <p id="lime-main" class="pl-1 colors"> #00ff00 </p>
+                <p id="lime-1" class="pl-1 colors"> #7aff7a </p>
+                <p id="lime-2" class="pl-1 colors"> #75ff75 </p>
+                <p id="lime-3" class="pl-1 colors"> #6bff6b </p>
+                <p id="lime-4" class="pl-1 colors"> #61ff61 </p>
+                <p id="lime-5" class="pl-1 colors"> #5cff5c </p>
+                <p id="lime-6" class="pl-1 colors"> #52ff52 </p>
+                <p id="lime-7" class="pl-1 colors"> #47ff47 </p>
+                <p id="lime-8" class="pl-1 colors"> #42ff42 </p>
+                <p id="lime-9" class="pl-1 colors"> #38ff38 </p>
+                <p id="lime-10" class="pl-1 colors"> #2eff2e </p>
+                <p id="lime-11" class="pl-1 colors"> #29ff29 </p>
+                <p id="lime-12" class="pl-1 colors"> #1fff1f </p>
+                <p id="lime-13" class="pl-1 colors"> #14ff14 </p>
+                <p id="lime-14" class="pl-1 colors"> #0fff0f </p>
+                <p id="lime-15" class="pl-1 colors"> #05ff05 </p>
             </div>
             <div class="col-lg-3">
-                <button class="btn-grad">Dark Gold</button>
+                <button class="btn-grad" id="btn-dark-lime">Dark Lime</button>
                 <p id="lime-main-dark" class="pl-1 colors"> #947e00 </p>
-                <p id="lime-dark-1" class="pl-1 colors"> #f5d000 </p>
-                <p id="lime-dark-2" class="pl-1 colors"> #f0cc00 </p>
-                <p id="lime-dark-3" class="pl-1 colors"> #e6c300 </p>
-                <p id="lime-dark-4" class="pl-1 colors"> #e0bf00 </p>
-                <p id="lime-dark-5" class="pl-1 colors"> #dbba00 </p>
-                <p id="lime-dark-6" class="pl-1 colors"> #d1b200 </p>
-                <p id="lime-dark-7" class="pl-1 colors"> #ccad00 </p>
-                <p id="lime-dark-8" class="pl-1 colors"> #c7a900 </p>
-                <p id="lime-dark-9" class="pl-1 colors"> #bda000 </p>
-                <p id="lime-dark-10" class="pl-1 colors"> #b89c00 </p>
-                <p id="lime-dark-11" class="pl-1 colors"> #b39800 </p>
-                <p id="lime-dark-12" class="pl-1 colors"> #a88f00 </p>
-                <p id="lime-dark-13" class="pl-1 colors"> #a38b00 </p>
-                <p id="lime-dark-14" class="pl-1 colors"> #9e8600 </p>
-                <p id="lime-dark-15" class="pl-1 colors"> #947e00 </p>
+                <p id="lime-dark-1" class="pl-1 colors"> #00f500 </p>
+                <p id="lime-dark-2" class="pl-1 colors"> #00f000 </p>
+                <p id="lime-dark-3" class="pl-1 colors"> #00e600 </p>
+                <p id="lime-dark-4" class="pl-1 colors"> #00e000 </p>
+                <p id="lime-dark-5" class="pl-1 colors"> #00db00 </p>
+                <p id="lime-dark-6" class="pl-1 colors"> #00d100 </p>
+                <p id="lime-dark-7" class="pl-1 colors"> #00cc00 </p>
+                <p id="lime-dark-8" class="pl-1 colors"> #00c700 </p>
+                <p id="lime-dark-9" class="pl-1 colors"> #00bd00 </p>
+                <p id="lime-dark-10" class="pl-1 colors"> #00b800 </p>
+                <p id="lime-dark-11" class="pl-1 colors"> #00b300 </p>
+                <p id="lime-dark-12" class="pl-1 colors"> #00a800 </p>
+                <p id="lime-dark-13" class="pl-1 colors"> #00a300 </p>
+                <p id="lime-dark-14" class="pl-1 colors"> #009e00 </p>
+                <p id="lime-dark-15" class="pl-1 colors"> #009400 </p>
+            </div>
+        </div>
+        <!--        teal cyan-->
+        <div class="row">
+            <div class="col-lg-3">
+                <button class="btn-grad" id="btn-teal">Teal</button>
+                <p id="teal-main" class="pl-1 colors m-0"> #008080</p>
+                <p id="teal-1" class="pl-1 colors"> #00fafa </p>
+                <p id="teal-2" class="pl-1 colors"> #00f5f5 </p>
+                <p id="teal-3" class="pl-1 colors"> #00ebeb </p>
+                <p id="teal-4" class="pl-1 colors"> #00e0e0 </p>
+                <p id="teal-5" class="pl-1 colors"> #00dbdb </p>
+                <p id="teal-6" class="pl-1 colors"> #00d1d1 </p>
+                <p id="teal-7" class="pl-1 colors"> #00c7c7 </p>
+                <p id="teal-8" class="pl-1 colors"> #00c2c2 </p>
+                <p id="teal-9" class="pl-1 colors"> #00b8b8 </p>
+                <p id="teal-10" class="pl-1 colors"> #00adad </p>
+                <p id="teal-11" class="pl-1 colors"> #00a8a8 </p>
+                <p id="teal-12" class="pl-1 colors"> #009e9e </p>
+                <p id="teal-13" class="pl-1 colors"> #009494 </p>
+                <p id="teal-14" class="pl-1 colors"> #008f8f </p>
+                <p id="teal-15" class="pl-1 colors"> #008585 </p>
+            </div>
+
+            <div class="col-lg-3">
+                <!--                dark teal-->
+                <button class="btn-grad" id="btn-dark-teal">Dark Teal</button>
+                <p id="teal-dark-main" class="pl-1 colors"> #001414 </p>
+                <p id="teal-dark-1" class="pl-1 colors"> #007575 </p>
+                <p id="teal-dark-2" class="pl-1 colors"> #007070 </p>
+                <p id="teal-dark-3" class="pl-1 colors"> #006666 </p>
+                <p id="teal-dark-4" class="pl-1 colors"> #006161 </p>
+                <p id="teal-dark-5" class="pl-1 colors"> #005c5c </p>
+                <p id="teal-dark-6" class="pl-1 colors"> #005252 </p>
+                <p id="teal-dark-7" class="pl-1 colors"> #004d4d </p>
+                <p id="teal-dark-8" class="pl-1 colors"> #004747 </p>
+                <p id="teal-dark-9" class="pl-1 colors"> #003d3d </p>
+                <p id="teal-dark-10" class="pl-1 colors"> #003838 </p>
+                <p id="teal-dark-11" class="pl-1 colors"> #003333 </p>
+                <p id="teal-dark-12" class="pl-1 colors"> #002929 </p>
+                <p id="teal-dark-13" class="pl-1 colors"> #002424 </p>
+                <p id="teal-dark-14" class="pl-1 colors"> #001f1f </p>
+                <p id="teal-dark-15" class="pl-1 colors"> #001414 </p>
+            </div>
+            <div class="col-lg-3">
+                <button class="btn-grad" id="btn-cyan"> Cyan</button>
+                <p id="cyan-main" class="pl-1 colors"> #00ffff </p>
+                <p id="cyan-1" class="pl-1 colors"> #7affff </p>
+                <p id="cyan-2" class="pl-1 colors"> #75ffff </p>
+                <p id="cyan-3" class="pl-1 colors"> #6bffff </p>
+                <p id="cyan-4" class="pl-1 colors"> #61ffff </p>
+                <p id="cyan-5" class="pl-1 colors"> #5cffff </p>
+                <p id="cyan-6" class="pl-1 colors"> #52ffff </p>
+                <p id="cyan-7" class="pl-1 colors"> #47ffff </p>
+                <p id="cyan-8" class="pl-1 colors"> #42ffff </p>
+                <p id="cyan-9" class="pl-1 colors"> #38ffff </p>
+                <p id="cyan-10" class="pl-1 colors"> #2effff </p>
+                <p id="cyan-11" class="pl-1 colors"> #29ffff </p>
+                <p id="cyan-12" class="pl-1 colors"> #1fffff </p>
+                <p id="cyan-13" class="pl-1 colors"> #14ffff </p>
+                <p id="cyan-14" class="pl-1 colors"> #0fffff </p>
+                <p id="cyan-15" class="pl-1 colors"> #05ffff </p>
+            </div>
+            <div class="col-lg-3">
+                <button class="btn-grad" id="btn-dark-cyan">Dark Cyan</button>
+                <p id="cyan-main-dark" class="pl-1 colors">  #009494  </p>
+                <p id="cyan-dark-1" class="pl-1 colors">  #00f5f5  </p>
+                <p id="cyan-dark-2" class="pl-1 colors">  #00f0f0  </p>
+                <p id="cyan-dark-3" class="pl-1 colors">  #00e6e6  </p>
+                <p id="cyan-dark-4" class="pl-1 colors"> #00e0e0  </p>
+                <p id="cyan-dark-5" class="pl-1 colors">  #00dbdb  </p>
+                <p id="cyan-dark-6" class="pl-1 colors">  #00d1d1  </p>
+                <p id="cyan-dark-7" class="pl-1 colors">  #00cccc  </p>
+                <p id="cyan-dark-8" class="pl-1 colors">  #00c7c7  </p>
+                <p id="cyan-dark-9" class="pl-1 colors">  #00bdbd  </p>
+                <p id="cyan-dark-10" class="pl-1 colors">  #00b8b8  </p>
+                <p id="cyan-dark-11" class="pl-1 colors">  #00b3b3  </p>
+                <p id="cyan-dark-12" class="pl-1 colors">  #00a8a8  </p>
+                <p id="cyan-dark-13" class="pl-1 colors">  #00a3a3  </p>
+                <p id="cyan-dark-14" class="pl-1 colors"> #009e9e  </p>
+                <p id="cyan-dark-15" class="pl-1 colors">  #009494 </p>
             </div>
         </div>
     </div>
 
 </main>
-
 
 
 </body>

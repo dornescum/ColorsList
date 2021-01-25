@@ -2,24 +2,26 @@ const colors = document.querySelectorAll('.colors');
 const p = document.querySelectorAll("p");
 const btnColor = document.querySelectorAll("button");
 const btn1 = document.getElementById("btn-1");
-// const mediaDiv = document.querySelectorAll("media")
-// console.log(mediaDiv);
+const mediaDiv = document.querySelectorAll("media")
+console.log(mediaDiv);
 
 
-const init = () => {
-    let querry = window.matchMedia("(min-width:400px)")
-    let small = window.innerWidth;
-    let big =window.innerWidth;
-    let direction = "";
-    small = 400;
-
-    if (querry.matches){
-        direction = small
-    } else {
-       direction = big
-    }
-}
-document.addEventListener("DOMContentLoaded", init)
+// const init = () => {
+//     let querry = window.matchMedia("(min-width:400px)")
+//     let small = window.innerWidth;
+//     console.log(small)
+//
+//     let direction = "";
+//     small = 400;
+//
+//     if (querry.matches){
+//         mediaDiv.style.backgroundColor ="red";
+//         console.log(mediaDiv)
+//     } else {
+//        mediaDiv.style.backgroundColor = "blue";
+//     }
+// }
+// document.addEventListener("DOMContentLoaded", init)
 
 colors.forEach(function (item) {
     // item.style.color = 'black'

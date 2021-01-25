@@ -13,7 +13,7 @@
 
 /*buton gri si silver*/
 .btn-grad {
-    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8 51%, #757F9A 100%)
+    /*background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8 51%, #757F9A 100%)*/
 }
 
 .btn-grad {
@@ -35,16 +35,104 @@
     color: #fff;
     text-decoration: none;
 }
+#btn-grey{
+    background-image: linear-gradient(to right, #bdbdbd 0%, #808080 51%, #b0b0b0 100%)
+}
+#btn-dark-grey{
+    background-image: linear-gradient(to right, #7a7a7a 0%, #4a4a4a 51%, #737373 100%)
+}
+#btn-silver{
+    background-image: linear-gradient(to right, #fcfcfc 0%, #c0c0c0 51%, #c7c7c7 100%)
+}
+#btn-dark-silver{
+    background-image: linear-gradient(to right, #bdbdbd  0%,  #808080 51%, #b0b0b0  100%)
+}
 
 #btn-orange {
     background-image: linear-gradient(to right, #ffd17a 0%, #ffa805 51%, #946000 100%)
 }
+/*#btn-orange:hover {*/
+/*    background-image: linear-gradient(to left, #ffd17a 0%, #ffa805 51%, #946000 100%);*/
+/*}*/
 
 #btn-dark-orange {
     background-image: linear-gradient(to right, #946000 0%, #c78100 51%, #f59f00 100%)
 }
+/*#btn-dark-orange:hover {*/
+/*    background-image: linear-gradient(to left, #946000 0%, #c78100 51%, #f59f00 100%)*/
+/*}*/
 
-/*buton orange*/
+#btn-red {
+    background-image: linear-gradient(to right, #ff7a7a 0%, #ff0505 100%)
+}
+/*#btn-red:hover {*/
+/*    background-image: linear-gradient(to left, #ff7a7a 0%, #ff0505 100%)*/
+/*}*/
+
+#btn-dark-red {
+    background-image: linear-gradient(to right, #940000 0%, #c70000 51%, #f50000 100%)
+}
+/*#btn-dark-red {*/
+/*    background-image: linear-gradient(to left, #940000 0%, #c70000 51%, #f50000 100%)*/
+/*}*/
+#btn-maroon{
+    background-image: linear-gradient(to right, #fa0000 0%, #8f0000 51%, #800000 100%);
+}
+/*#btn-maroon:hover{*/
+/*    background-image: linear-gradient(to left, #fa0000 0%, #8f0000 51%, #800000 100%);*/
+/*}*/
+#btn-dark-maroon{
+    background-image: linear-gradient(to right, #750000 0%, #660000 51%, #140000 100%);
+}
+/*#btn-dark-maroon:hover{*/
+/*    background-image: linear-gradient(to left, #750000 0%, #660000 51%, #140000 100%);*/
+/*}*/
+#btn-brown{
+    background-image: linear-gradient(to right, #da7171 0%, #d45959 51%, #a52a2a 100%);
+}
+/*#btn-brown:hover{*/
+/*    background-image: linear-gradient(to left, #da7171 0%, #d45959 51%, #a52a2a 100%);*/
+/*}*/
+#btn-dark-brown{
+    background-image: linear-gradient(to right, #9e2929 0%, #511515 51%, #9a2828 100%);
+}
+#btn-tan{
+    background-image: linear-gradient(to right, #f5eee5 0%, #d2b48c 51%, #d8be9c 100%);
+}
+#btn-dark-tan{
+    background-image: linear-gradient(to right, #d0b086 0%, #b08245 51%, #b9894b 100%);
+}
+#btn-gold{
+    background-image: linear-gradient(to right, #ffeb7a 0%, #ffd700 51%, #ffe02e 100%);
+    color: black;
+}
+#btn-dark-gold{
+    background-image: linear-gradient(to right, #f5d000 0%, #947e00 51%, #bda000 100%);
+}
+#btn-olive{
+    background-image: linear-gradient(to right, #fafa00 0%, #808000 51%, #c7c700 100%);
+}
+#btn-dark-olive{
+    background-image: linear-gradient(to right, #757500 0%, #141400 51%, #616100 100%);
+}
+#btn-lime{
+    background-image: linear-gradient(to right, #7aff7a 0%, #947e00 51%, #5cff5c 100%);
+}
+#btn-dark-lime{
+    background-image: linear-gradient(to right, #00f500 0%, #947e00 51%, #00e600 100%);
+}
+#btn-teal{
+    background-image: linear-gradient(to right, #00fafa 0%, #008585 51%, #00dbdb 100%);
+}
+#btn-dark-teal{
+    background-image: linear-gradient(to right, #007575 0%, #001414 51%, #006666  100%);
+}
+#btn-cyan{
+    background-image: linear-gradient(to right, #7affff 0%, #00dbdb 51%, #75ffff  100%);
+}
+#btn-dark-cyan{
+    background-image: linear-gradient(to right, #00f5f5 0%, #009494 51%, #00c7c7 100%);
+}
 
 
 /*clock*/

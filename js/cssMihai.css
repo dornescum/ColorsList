@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Abel|Anton|Cabin|Dancing+Script|Indie+Flower|Lacquer|Lato|Lobster|Long+Cang|Lora|Ma+Shan+Zheng|Montserrat|Muli|Open+Sans|Oswald|Pacifico|Raleway|Roboto&display=swap");
 @import "id-colors.css";
 @import "olive.css";
+@import "lime.css";
+@import "teal.css";
+@import "cyan.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -69,6 +72,7 @@
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
+  --max-width: 1440px;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
 
