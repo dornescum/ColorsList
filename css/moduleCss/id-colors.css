@@ -133,8 +133,19 @@
 #btn-dark-cyan{
     background-image: linear-gradient(to right, #00f5f5 0%, #009494 51%, #00c7c7 100%);
 }
+#btn-blue{
+    background-image: linear-gradient(to right, #7a7aff 0%, #0000ff 51%, #7575ff  100%);
+}
+#btn-dark-blue{
+    background-image: linear-gradient(to right, #0000f5 0%, #000094 51%, #0000f0  100%);
+}
+#btn-navy{
+    background-image: linear-gradient(to right, #0000fa 0%, #000085 51%, #0000eb  100%);
+}
 
-
+#btn-dark-navy{
+    background-image: linear-gradient(to right, #0000fa 0%, #000014 51%, #00009e 100%);
+}
 /*clock*/
 .clock {
     position: absolute;

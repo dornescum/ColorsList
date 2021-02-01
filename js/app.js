@@ -2,8 +2,9 @@ const colors = document.querySelectorAll('.colors');
 const p = document.querySelectorAll("p");
 const btnColor = document.querySelectorAll("button");
 const btn1 = document.getElementById("btn-1");
-const mediaDiv = document.querySelectorAll("media")
-console.log(mediaDiv);
+const mediaDiv = document.querySelectorAll("media");
+// const blueCol =document.getElementById("blue");
+
 
 
 // const init = () => {
@@ -73,4 +74,28 @@ function showTime() {
 
 }
 
-showTime();
+showTime()
+
+// blueObj = {
+//     blueColors : [
+//         {
+//             col:  "#00d1d1"
+//         },
+//         {
+//             col:  "#004d4d"
+//         }
+//         ],
+//     showColor(){
+//         const blueList = document.createElement("ul");
+//         blueList.className = 'col-lg-3';
+//         for (const item in this.blueColors){
+//             const blueLink = document.createElement("li");
+//             blueLink.className= "pl-1 colors";
+//             blueLink.innerHTML = `<li>${item.col}</li>`
+//             blueList.append(blueLink);
+//         }
+//         blueCol.append(blueList);
+//     },
+// };
+// console.log(typeof blueObj);
+// blueObj.showColor();

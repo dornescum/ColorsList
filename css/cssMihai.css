@@ -1,10 +1,12 @@
 /* Font Import */
 @import url("https://fonts.googleapis.com/css?family=Abel|Anton|Cabin|Dancing+Script|Indie+Flower|Lacquer|Lato|Lobster|Long+Cang|Lora|Ma+Shan+Zheng|Montserrat|Muli|Open+Sans|Oswald|Pacifico|Raleway|Roboto&display=swap");
-@import "id-colors.css";
-@import "olive.css";
-@import "lime.css";
-@import "teal.css";
-@import "cyan.css";
+@import "moduleCss/id-colors.css";
+@import "moduleCss/olive.css";
+@import "moduleCss/lime.css";
+@import "moduleCss/teal.css";
+@import "moduleCss/cyan.css";
+@import "moduleCss/blue.css";
+@import "moduleCss/navy.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
