@@ -7,6 +7,8 @@
 @import "moduleCss/cyan.css";
 @import "moduleCss/blue.css";
 @import "moduleCss/navy.css";
+@import "moduleCss/purple.css";
+@import "moduleCss/magenta.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -370,6 +372,7 @@ button:focus {
   margin: 1rem;
 }
 
+
 .m-2 {
   margin: 2rem;
 }
@@ -414,6 +417,13 @@ button:focus {
 
 .mb-4 {
   margin-bottom: 4rem;
+}
+.mb-11{}
+.mb-12{}
+.mb-13{}
+.mb-14{}
+.mb-15{
+  margin-bottom: 5px;
 }
 
 /* margin Left */
@@ -1390,7 +1400,7 @@ Sidebar
 .sidebar {
   width: 90vw;
   height: 95vh;
-  max-width: var(--fixed-width);
+  /*max-width: var(--fixed-width);*/
   background: var(--clr-white);
   border-radius: var(--radius);
   box-shadow: var(--dark-shadow);

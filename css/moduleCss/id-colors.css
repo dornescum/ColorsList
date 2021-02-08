@@ -146,6 +146,19 @@
 #btn-dark-navy{
     background-image: linear-gradient(to right, #0000fa 0%, #000014 51%, #00009e 100%);
 }
+#btn-purple{
+    background-image: linear-gradient(to right, #c67aff 0%, #800080 51%, #9e1fff  100%);
+}
+#btn-dark-purple{
+    background-image: linear-gradient(to right, #8b00f5 0%, #540094 51%, #5f00a8  100%);
+}
+#btn-magenta{
+    background-image: linear-gradient(to right, #ff7aff 0%, #ff00ff 51%, #ff2eff  100%);
+}
+#btn-dark-magenta{
+    background-image: linear-gradient(to right, #ff47ff 0%, #940094 51%, #f000f0 100%);
+}
+
 /*clock*/
 .clock {
     position: absolute;
