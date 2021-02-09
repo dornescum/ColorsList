@@ -159,6 +159,13 @@
     background-image: linear-gradient(to right, #ff47ff 0%, #940094 51%, #f000f0 100%);
 }
 
+#btn-yellow{
+    background-image: linear-gradient(to right, #ffff7a 0%, #f0f000 51%, #ffff5c 100%);
+    color: black;
+}
+#btn-dark-yellow{
+    background-image: linear-gradient(to right, #f5f500 0%, #949400 51%, #ffff42 100%);
+}
 /*clock*/
 .clock {
     position: absolute;

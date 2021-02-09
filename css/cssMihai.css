@@ -9,6 +9,7 @@
 @import "moduleCss/navy.css";
 @import "moduleCss/purple.css";
 @import "moduleCss/magenta.css";
+@import "moduleCss/yellow.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
