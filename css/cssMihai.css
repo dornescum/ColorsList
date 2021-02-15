@@ -11,6 +11,8 @@
 @import "moduleCss/magenta.css";
 @import "moduleCss/yellow.css";
 @import "moduleCss/pink.css";
+@import "moduleCss/white.css";
+@import "moduleCss/black.css";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
